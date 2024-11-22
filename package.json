@@ -1,6 +1,6 @@
 {
   "name": "@ml_tickets/common",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "files": [
@@ -10,7 +10,6 @@
     "clean": "del-cli ./build/*",
     "build": "npm run clean && tsc",
     "pub": "git add . && git commit -m \"Updates\" && npm version patch && npm run build && npm publish"
-
   },
   "keywords": [],
   "author": "",
